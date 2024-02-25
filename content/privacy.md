@@ -2,8 +2,8 @@
 title: "Privacy Policy"
 description: ""
 summary: ""
-date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+date: 2023-09-07T17:19:07+07:00
+lastmod: 2024-02-25T17:20:00+07:00
 draft: false
 type: "legal"
 seo:
