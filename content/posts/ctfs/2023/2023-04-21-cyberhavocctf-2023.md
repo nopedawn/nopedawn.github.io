@@ -79,12 +79,12 @@ We can decode it using Morse Audio Decoder website
 
 Given a file named [dosser.s](https://github.com/nopedawn/CTF/blob/main/CyberHavoc23/Start_The_Dos/dosser.o) we can compile it using the following commands:
 
-```bash
+```bash {title="bash"}
 $ nasm -f elf32 -o dosser.o dosser.s
 $ ld -m elf_i386 -o dosser dosser.o
 ```
 
-```bash
+```bash {title="bash"}
 $ file dosser
 dosser: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
 ```
@@ -139,7 +139,7 @@ Given an MP4 video [file](https://github.com/nopedawn/CTF/blob/main/CyberHavoc23
   
 </details>
 
-In this Web3.0 (Blockchain) category challenge is presented in the form of a link resulting from an Ethereum transaction. This challenge is often encountered in the realm of Web3.0, and by clicking on **Transaction Details** we can access further information by selecting **More Details > Click to Show More > View Input As** followed by `UTF-8`.
+In this Web3.0 (Blockchain) category challenge is presented in the form of a link resulting from an Ethereum transaction. This challenge is often encountered in the realm of Web3.0, and by clicking on `Transaction Details` we can access further information by selecting `More Details > Click to Show More > View Input As` followed by `UTF-8`.
 
 <details>
   <summary>Flag</summary>

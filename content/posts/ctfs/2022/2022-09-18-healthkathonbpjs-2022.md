@@ -60,7 +60,7 @@ RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJl
 
 Setelah kami decode hasilnya seperti berikut
 
-```bash
+```bash {title="bash"}
 $ echo 'RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4=' | base64 --decode
 ```
 
@@ -72,7 +72,7 @@ $ echo 'RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3Nz
 
 Singkat cerita kami coba menggunakan `curl` dengan parameter `-v` untuk mencari informasi dari URL-nya, dan kami menemukan potongan flag berupa Hexadecimal
 
-```bash
+```bash {title="bash"}
 $ curl -v http://pentest.student.1337hackathon.id:81/
 ```
 
@@ -93,7 +93,7 @@ maka dari itu kami mencari script untuk memecahkan XOR function dengan custom cs
 
 Berikut script Python-nya
 
-```python
+```python {title="part5.py"}
 def decrypt(encrypted: bytes, key: bytes):
     result = []
     
@@ -105,7 +105,7 @@ def decrypt(encrypted: bytes, key: bytes):
 
 Lalu kami jalankan dengan command `python3 -i xor_solver.py` dan didapatkanlah **Part5** dari Flagnya yaitu `h4r4pan`
 
-```bash
+```bash {title="bash"}
 $ python3 -i xor_solver.py
 >>> encrypted = b"%y?y=,#"
 >>> key = bytes([77])

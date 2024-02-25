@@ -56,7 +56,7 @@ To implement of RSA decryption algorithm that reads in the modulus `n`, the publ
 
 Calculates the other prime factor `q` of `n` by dividing `n` by `p`, then computes the private key `d` using the modular multiplicative inverse function by passing `e` and `(p-1)*(q-1)` as inputs.
 
-```python3
+```python {title="solver.py" lineNos=true lineNoStart=1}
 from Crypto.Util.number import inverse, long_to_bytes
 
 n = 17821369821197224755204170576717386974772583796320656477539620911939396151906969461959183978640937853223745304126597764393313271455282077396239424618606794404260667285392141808188728083834584927026023081706807877287176411455869333099599758756680824930296103562451364106123092367375221182676628604366038187928496804145884268753169728377208516981412594946003622745692274230506436281885419071635199138875290167920431573351256816462603222296067133230212113705435433321977478320363027010331451497317278086877300977556100259644050343025778299297465892385900238472919994896492369105460841980012051688350169675505544039420123
@@ -111,7 +111,7 @@ Given a challenge [file](https://github.com/nopedawn/CTF/blob/main/CodebyGameCTF
 
 Here's the solver
 
-```python3
+```python {title="solver.py" lineNos=true lineNoStart=1}
 message = "43 4F 44 45 01000010 01011001 01111011 167 60 167 137 167 150 60 154 63 137 102 97 109 49 108 121 95 116 48 95 U+67 U+61 U+74 U+68 U+33 U+72 U+7D"
 message_list = message.split()
 
@@ -149,7 +149,7 @@ Given a challenge in the form of a png [file](https://github.com/nopedawn/CTF/bl
 
 We checked the metadata of the file and found nothing suspicious
 
-```bash
+```bash {title="bash"}
 $ exiftool task.png
 ExifTool Version Number         : 12.40
 File Name                       : task.png
@@ -177,7 +177,7 @@ Then we checked the string contents and found no clue at all `$ strings task.png
 
 How about trying with `zsteg` maybe there is some hidden LSB data inside it, and there's it
 
-```bash
+```bash {title="bash"}
 $ zsteg task.png
 b1,rgb,lsb,xy       .. text: "50:codeby{Be_c4r3FULL_NExT_TIMe_WIth_trAps_L1KE_Th1s}?"
 b1,bgr,lsb,xy       .. file: OpenPGP Secret Key
@@ -207,7 +207,7 @@ b4,b,msb,xy         .. file: MPEG ADTS, layer I, v2, 112 kbps, 24 kHz, JntStereo
 
 Given a challenge of a `15:36` minute WAV audio file, first we check the metadata
 
-```bash
+```bash {title="bash"}
 $ exiftool earth.wav
 ExifTool Version Number         : 12.40
 File Name                       : earth.wav
