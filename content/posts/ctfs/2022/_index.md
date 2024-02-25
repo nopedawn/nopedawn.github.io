@@ -1,14 +1,14 @@
 ---
-title: "2023"
+title: "2022"
 description: ""
 summary: ""
-date: 2023-01-01T00:00:00+02:00
-lastmod: 2023-01-01T00:00:00+02:00
+date: 2022-01-01T00:00:00+02:00
+lastmod: 2022-01-01T00:00:00+02:00
 draft: false
 menu:
   posts:
     parent: ""
-    identifier: "2023"
+    identifier: "2022"
 weight: 900
 toc: true
 seo:
