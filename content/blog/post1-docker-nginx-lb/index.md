@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-</h1>Docker & Nginx</h1> are both powerful tools used in modern software development and deployment workflows.
+**Docker & Nginx** are both powerful tools used in modern software development and deployment workflows.
 
 Docker is a platform that allows to package, distribute, and run applications in lightweight, portable containers. These containers encapsulate all the dependencies required to run an application, including the code, runtime, system tools, libraries, and settings. Docker containers are isolated from each other and from the host system, ensuring consistent behavior across different environments. Docker simplifies the process of deploying applications, as developers can create containers locally and then deploy them to any environment that supports Docker, whether it's a developer's laptop, a testing server, or a production environment.
 
@@ -52,9 +52,11 @@ Docker and Nginx complement each other well, providing developers with powerful 
 
 # Configuration
 
+<hr>
+
 ## NGINX
 
-```conf {title="nginx.conf"}
+```yml {title="nginx.conf"}
 http {
     upstream backends {
         server server-1 weight=2;
@@ -166,13 +168,13 @@ $ docker compose logs -f server-2
 $ docker compose logs -f server-3
 ```
 
-These commands used to view the logs of each individual container (server-1, server-2, server-3) managed by Docker Compose.
+These commands used to view the logs of each individual container (`server-1`, `server-2`, `server-3`) managed by Docker Compose.
 
 ![Terminal Logs 2](terminal-logs-2.png)
 
 <br>
 
-## Stop the container
+## Stopping the container
 
 ```bash {title="stopping container"}
 $ docker compose down
