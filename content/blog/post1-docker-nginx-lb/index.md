@@ -3,7 +3,7 @@ title: "DOCKER & NGINX: Echo Server HTTP Load Balancer"
 description: ""
 summary: ""
 date: 2024-04-08T13:00:00+07:00
-lastmod: 2024-04-08T13:00:00+07:00
+lastmod: 2024-04-12T12:58:00+07:00
 draft: false
 weight: 50
 categories: []
