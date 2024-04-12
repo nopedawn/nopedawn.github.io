@@ -115,7 +115,7 @@ services:
       - 9999:9999
 ```
 
-This docker compose file defines the Docker services for your setup. It specifies four services:
+This docker compose file defines the Docker services for setup. It specifies four services:
 
 - Three services (`server-1`, `server-2`, `server-3`) based on the `ealen/echo-server` Docker image. These services represent the backend servers that will receive traffic from the Nginx load balancer.
 - One service (nginx) based on the official Nginx Docker image. It mounts the `nginx.conf` file into the container and exposes port `9999`, where the Nginx server listens for incoming HTTP requests.
@@ -148,7 +148,7 @@ Every 1.0s: curl -s localhost:9999                                              
 {"host":{"hostname":"backends","ip":"::ffff:172.21.0.3","ips":[]},"http":{"method":"GET","baseUrl":"","originalUrl":"/","protocol":"http"},"request":{"params":{"0":"/"},"query":{},"cookies":{},"body":{},"headers":{"host":"backends","connection":"close","user-agent":"curl/7.81.0","accept":"*/*"}}}
 ```
 
-This command continuously monitors the output of the `curl -s localhost:9999` command, which fetches the response from the Nginx load balancer. It allows you to observe how requests are distributed among the backend servers.
+This command continuously monitors the output of the `curl -s localhost:9999` command, which fetches the response from the Nginx load balancer. It allows to observe how requests are distributed among the backend servers.
 
 <br>
 
