@@ -18,6 +18,8 @@ seo:
   noindex: false # false (default) or true
 ---
 
+# Introduction
+
 **Docker & Nginx** are both powerful tools used in modern software development and deployment workflows.
 
 Docker is a platform that allows to package, distribute, and run applications in lightweight, portable containers. These containers encapsulate all the dependencies required to run an application, including the code, runtime, system tools, libraries, and settings. Docker containers are isolated from each other and from the host system, ensuring consistent behavior across different environments. Docker simplifies the process of deploying applications, as developers can create containers locally and then deploy them to any environment that supports Docker, whether it's a developer's laptop, a testing server, or a production environment.
@@ -50,7 +52,7 @@ Docker and Nginx complement each other well, providing developers with powerful 
 
 <br>
 
-# Configuration
+# Configurations
 
 <hr>
 
