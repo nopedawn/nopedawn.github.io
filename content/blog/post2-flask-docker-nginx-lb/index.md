@@ -70,7 +70,7 @@ flask-docker-nginx-lb
 
 ## Requirements
 
-``` {title="requirements.txt"}
+```yml {title="requirements.txt"}
 flask
 gunicorn
 ```
