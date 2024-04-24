@@ -1,5 +1,5 @@
 ---
-title: "Flask DOCKER NGINX: Creating Simple Flask App with HTTP Load Balancer"
+title: "FLASK DOCKER NGINX: Creating Simple Flask App with HTTP Load Balancer"
 description: ""
 summary: ""
 date: 2024-04-18T09:16:00+07:00
