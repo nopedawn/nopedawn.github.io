@@ -1,5 +1,5 @@
 ---
-title: "GEMATIK 17 XVII QUAL CTF 2024"
+title: "GEMASTIK 17 XVII QUAL CTF 2024"
 description: ""
 summary: ""
 date: 2024-08-20T00:00:00+07:00
