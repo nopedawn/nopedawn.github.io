@@ -17,7 +17,7 @@ mainSections = ["posts"]
 
   # Navbar
   navbarSticky = true # true (default) or false
-  containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
+  containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid" #ganti lg/fluid
 
   ## Button
   navBarButton = false # false (default) or true

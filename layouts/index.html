@@ -6,7 +6,9 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/posts/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}" role="button">Explore</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
+        href="/posts/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}"
+        role="button">Explore</a>
       {{ .Content }}
     </div>
   </div>
@@ -29,7 +31,8 @@
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Init</h4><br>
-            <pre class="blinking-cursor"><span class="dollar">$ </span>echo 'bm9wZWRhd24K' | base64 -d<span class="cursor">|</span></pre>
+            <pre
+              class="blinking-cursor"><span class="dollar">$ </span>echo 'bm9wZWRhd24K' | base64 -d<span class="cursor">|</span></pre>
           </div>
         </div>
       </div>
@@ -99,7 +102,9 @@
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
       <h2 class="mt-2">Start building with Doks today</h2>
-      <a class="btn btn-primary rounded-pill px-4 my-2" href="/posts/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <a class="btn btn-primary rounded-pill px-4 my-2"
+        href="/posts/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}prologue/introduction/"
+        role="button">{{ i18n "get-started" }}</a>
     </div>
   </div>
 </section>
