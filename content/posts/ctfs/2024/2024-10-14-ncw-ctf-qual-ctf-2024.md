@@ -25,7 +25,7 @@ Solved for 7 challenges including: *(2 Forensics, 4 Misc, 1 Web Exploitation)*
 <br>
 <p align="center">
   <a href="https://ctf-ncw.cscbinus.com/" target="_blank">
-    <img src="https://ncw.cscbinus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fncw-logo.db6b8fca.png&w=384&q=75" width="200">
+    <img src="https://cscbinus.com/images/ncw.png" width="200">
   </a>
 </p>
 
